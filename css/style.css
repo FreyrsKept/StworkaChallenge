@@ -1,0 +1,90 @@
+body {
+ /* font-family: ; */
+ background-color: gray;
+}
+
+.page {
+ min-width: 1100px;
+ max-width: 1600px;
+ font-family: "Helvetica Neue", Arial, sans-serif;
+ margin: 0 auto;
+}
+
+.checklist__container {
+ display: grid;
+ grid-template-columns: 60px auto 173px;
+ margin-left: auto;
+ margin-right: auto;
+ top: 50%;
+ width: 743px;
+ height: 91px;
+ color: white;
+ background-color: #3579f5;
+ /* background-color: black; */
+ border-radius: 10px;
+ padding: 16px 22px 15px 18px;
+ box-sizing: border-box;
+}
+
+.checklist__button {
+ width: 170px;
+ height: 40px;
+ border-radius: 5px;
+ border: 0px;
+ color: #3579f5;
+ margin: 10px 0px 0px 6px;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 20px;
+ margin-left: 5px;
+ text-align: center;
+}
+
+.checklist__title {
+ text-align: center;
+ background-color: black;
+ width: 76px;
+ border-radius: 10px;
+ margin-top: -4px;
+}
+
+.checklist__progressBar {
+ border: 2px solid white;
+ border-radius: 50%;
+ text-align: center;
+ width: 60px;
+ height: 60px;
+}
+
+.checklist__progressBar-status {
+ margin-top: 17px;
+ letter-spacing: 0.1px;
+ margin-left: 4px;
+ font-size: 22px;
+}
+
+.checklist__info {
+ margin-left: 16px;
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 18px;
+}
+
+.checklist__progress {
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 21px;
+ margin-top: -8px;
+ margin-left: 2px;
+ letter-spacing: 0px;
+}
+
+.checklist__toDo {
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 26px;
+ text-align: left;
+ margin-left: 4px;
+ margin-top: -16px;
+ letter-spacing: 0.4px;
+}
